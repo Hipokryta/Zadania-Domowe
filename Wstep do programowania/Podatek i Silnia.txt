@@ -13,9 +13,9 @@ namespace ConsoleApplication2
            
             try
             {
-                Console.WriteLine("Podaj liczbe do obliczenia z niej silni");
+                Console.WriteLine("Podaj liczbe do obliczenia z niej silni od 1-20"); //Powy¿ej siê wywala na int
                 String input = System.Console.ReadLine();
-                int number = int.Parse(input);
+                long number = long.Parse(input);
 
 
 
@@ -37,7 +37,8 @@ namespace ConsoleApplication2
                 Main(null);
             }
         }
-        public static int obliczSilnie(int liczba) {
+        public static long obliczSilnie(long liczba)
+        {
             
                 if (liczba < 1)
                 {
@@ -56,6 +57,7 @@ namespace ConsoleApplication2
             if (character == 't')
             {
                 System.Diagnostics.Process.Start("http://www.pit.pl/kalkulator_podatkowy_pit_2503.php");
+                System.Console.ReadLine();
             }
         }
 
