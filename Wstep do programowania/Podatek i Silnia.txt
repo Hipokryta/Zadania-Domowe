@@ -1,0 +1,105 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+           
+            try
+            {
+                Console.WriteLine("Podaj liczbe do obliczenia z niej silni");
+                String input = System.Console.ReadLine();
+                int number = int.Parse(input);
+
+
+
+                Console.WriteLine("Silnia to " + obliczSilnie(number));
+                Console.WriteLine("Chcesz obliczyæ podatek dochodowy? t/n");
+                input = System.Console.ReadLine();
+                char character = char.Parse(input);
+                if (character == 't')
+                {
+
+                    obliczPodatek();
+                }
+
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Liczbe !!!!");
+                Main(null);
+            }
+        }
+        public static int obliczSilnie(int liczba) {
+            
+                if (liczba < 1)
+                {
+                    return 1;
+                }
+                else
+                {
+                    return liczba * obliczSilnie(liczba - 1);
+                }
+        }
+        public static void sprawdzPodatek()
+        {
+            Console.WriteLine("Chcesz sprawdzic czy podatek jest poprawnie obliczony ? t/n");
+            String input = System.Console.ReadLine();
+            char character = char.Parse(input);
+            if (character == 't')
+            {
+                System.Diagnostics.Process.Start("http://www.pit.pl/kalkulator_podatkowy_pit_2503.php");
+            }
+        }
+
+    /*  Zasady obliczenia dla ka¿dego z progów ró¿ni¹ siê:
+
+       
+        Je¿eli podstawa obliczenia podatku wynosi 85 528 z³ lub mniej (czyli osoba zarobi³a do 85 528 z³ rocznie) to podatek wynosi 18% tej podstawy minus 556 z³ 2 gr.
+        Je¿eli podstawa obliczenia podatku przekracza 85 528 z³, to podatek wynosi 14 839 z³ + 32% nadwy¿ki ponad 85 528 z³.
+        Uwaga: osoby, które osi¹gnê³y bardzo niskie dochody otrzymaj¹ zwrot podatku. W roku 2012 tzw. kwota wolna od podatku wynosi³a 3091 z³. 
+        Oznacza to, ¿e osoba, która w danym roku zarobi³a mniej ni¿ 3091 z³ otrzyma zwrot zaliczek na poczet podatku, które zosta³y op³acone.
+        W takim przypadku równie¿ konieczne jest z³o¿enie zeznania podatkowego (informacje o zeznaniu podatkowym znajduj¹ siê w kolejnych zak³adkach).
+    */
+
+    public static void obliczPodatek()
+        {
+            try
+            {
+                Console.WriteLine("Podaj miesiêczne wynagrodzenie");
+                String input = System.Console.ReadLine();
+                double miesiecznyZarobek = double.Parse(input);
+                double rocznyZarobek = miesiecznyZarobek * 12;
+
+                if (rocznyZarobek < 85528)
+                {
+                    if (rocznyZarobek < 3091)
+                    {
+                        Console.WriteLine("Kwota wolna od podatku");
+                        System.Threading.Thread.Sleep(5000);
+                    } 
+                    
+                    double podatek = (rocznyZarobek * 0.18) - 556.02;
+                    Console.WriteLine("zap³acisz "+string.Format("{0:0,0.0}", Math.Round(podatek,2))+"zl podatku w ciagu roku");
+                    Console.WriteLine("to bedzie ok " + string.Format("{0:0,0.0}", Math.Round(podatek/12,2)) + "zl podatku miesiecznie");
+                    sprawdzPodatek();
+                }
+                else
+                {
+                    double podatek = ((rocznyZarobek - 85528.0) * 0.32) + 14839;
+                    Console.WriteLine("zap³acisz " + string.Format("{0:0,0.0}", Math.Round(podatek, 2)) + "zl podatku w ciagu roku");
+                    Console.WriteLine("to bedzie ok " + string.Format("{0:0,0.0}", Math.Round(podatek / 12, 2)) + "zl podatku miesiecznie");
+                    sprawdzPodatek();
+                }
+            }
+            catch (Exception e) { }
+        }
+    }
+}
