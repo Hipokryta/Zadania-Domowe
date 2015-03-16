@@ -135,14 +135,17 @@ namespace ConsoleApplication3
             {
                 for (int j = 0; j <= kolumny; j++)
                 {
-                    int suma = macierz[i,j]+macierz[i+1,j]+macierz[i+1,j+1]+macierz[i,j+1];
-                    if (suma > najwiekszaSuma)
+                    //System.IndexOutOfRangeException handler
+                    if ((j  < (kolumny -1))&&(i < (wiersze-1)))
                     {
-                        wiersz = i;
-                        kolumna = j;
+                        int suma = macierz[i, j] + macierz[i + 1, j] + macierz[i + 1, j + 1] + macierz[i, j + 1];
+                        if (suma > najwiekszaSuma)
+                        {
+                            wiersz = i;
+                            kolumna = j;
+                        }
                     }
                 }
-                Console.WriteLine();
             }
         }
 

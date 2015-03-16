@@ -21,6 +21,7 @@ namespace ConsoleApplication3
 
             Macierz m1 = new Macierz(4, 2,new int[,]{ { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } });
             Macierz m2 = new Macierz(4, 2, new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } });
+            Macierz m3 = new Macierz(4, 3, new int[,] { { 1, 2,3 }, { 3, 4,5 }, { 5, 6,7 }, { 7, 8,9 } });
 
             Console.WriteLine("Sprawdza czy sa rowne");
             m1.Equals(m2);
@@ -30,6 +31,10 @@ namespace ConsoleApplication3
             m1.dodajMacierze(m1.macierz);
             Console.WriteLine("POMNOZONE MACIERZE");
             Console.WriteLine(m1*m1);
+            int kolumna = 0, wiersz = 0;
+            Console.WriteLine("MAX MACIERZ");
+            m3.maxMacierz4x4(ref wiersz,ref kolumna);
+            Console.WriteLine("wiersz: "+wiersz+" kolumna: "+kolumna);
             Console.ReadKey();
 /* Baza danych
             SqlConnection connection = new SqlConnection("Server=MININT-O167DCM\\MSSQLSERVER2;Database=AdventureWorks2014;Integrated Security=true");
