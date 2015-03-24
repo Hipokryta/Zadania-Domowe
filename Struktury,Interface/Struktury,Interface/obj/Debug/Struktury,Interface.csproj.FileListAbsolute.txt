@@ -1,0 +1,6 @@
+c:\users\michal\documents\visual studio 2013\Projects\Struktury,Interface\Struktury,Interface\bin\Debug\Struktury,Interface.exe.config
+c:\users\michal\documents\visual studio 2013\Projects\Struktury,Interface\Struktury,Interface\bin\Debug\Struktury,Interface.exe
+c:\users\michal\documents\visual studio 2013\Projects\Struktury,Interface\Struktury,Interface\bin\Debug\Struktury,Interface.pdb
+c:\users\michal\documents\visual studio 2013\Projects\Struktury,Interface\Struktury,Interface\obj\Debug\Struktury,Interface.csprojResolveAssemblyReference.cache
+c:\users\michal\documents\visual studio 2013\Projects\Struktury,Interface\Struktury,Interface\obj\Debug\Struktury,Interface.exe
+c:\users\michal\documents\visual studio 2013\Projects\Struktury,Interface\Struktury,Interface\obj\Debug\Struktury,Interface.pdb
