@@ -1,0 +1,6 @@
+c:\users\michal\documents\visual studio 2013\Projects\Interface i struktury\Interface i struktury\bin\Debug\Interface i struktury.exe.config
+c:\users\michal\documents\visual studio 2013\Projects\Interface i struktury\Interface i struktury\obj\Debug\Interface i struktury.csprojResolveAssemblyReference.cache
+c:\users\michal\documents\visual studio 2013\Projects\Interface i struktury\Interface i struktury\bin\Debug\Interface i struktury.exe
+c:\users\michal\documents\visual studio 2013\Projects\Interface i struktury\Interface i struktury\bin\Debug\Interface i struktury.pdb
+c:\users\michal\documents\visual studio 2013\Projects\Interface i struktury\Interface i struktury\obj\Debug\Interface i struktury.exe
+c:\users\michal\documents\visual studio 2013\Projects\Interface i struktury\Interface i struktury\obj\Debug\Interface i struktury.pdb
