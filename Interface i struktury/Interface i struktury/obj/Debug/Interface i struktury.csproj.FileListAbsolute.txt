@@ -4,3 +4,6 @@ c:\users\michal\documents\visual studio 2013\Projects\Interface i struktury\Inte
 c:\users\michal\documents\visual studio 2013\Projects\Interface i struktury\Interface i struktury\bin\Debug\Interface i struktury.pdb
 c:\users\michal\documents\visual studio 2013\Projects\Interface i struktury\Interface i struktury\obj\Debug\Interface i struktury.exe
 c:\users\michal\documents\visual studio 2013\Projects\Interface i struktury\Interface i struktury\obj\Debug\Interface i struktury.pdb
+C:\Users\michal\githubFolder\Interface i struktury\Interface i struktury\bin\Debug\Interface i struktury.exe.config
+C:\Users\michal\githubFolder\Interface i struktury\Interface i struktury\obj\Debug\Interface i struktury.exe
+C:\Users\michal\githubFolder\Interface i struktury\Interface i struktury\obj\Debug\Interface i struktury.pdb

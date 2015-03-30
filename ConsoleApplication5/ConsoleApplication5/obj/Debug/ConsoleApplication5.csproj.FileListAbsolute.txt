@@ -5,3 +5,7 @@ c:\users\michal\documents\visual studio 2013\Projects\ConsoleApplication5\Consol
 c:\users\michal\documents\visual studio 2013\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
 c:\users\michal\documents\visual studio 2013\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb
 c:\users\michal\documents\visual studio 2013\Projects\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csproj.ResolveComReference.cache
+C:\Users\michal\githubFolder\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
+C:\Users\michal\githubFolder\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.csproj.ResolveComReference.cache
+C:\Users\michal\githubFolder\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
+C:\Users\michal\githubFolder\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb

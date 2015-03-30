@@ -25,9 +25,9 @@ namespace Interface_i_struktury
         {
             if (obj == null) return 1;
 
-            KoloroweLiczbyCalkowite otherTemperature = obj as KoloroweLiczbyCalkowite;
-            if (otherTemperature != null)
-                return this.liczba.CompareTo(otherTemperature.liczba);
+            KoloroweLiczbyCalkowite colorObj = obj as KoloroweLiczbyCalkowite;
+            if (colorObj != null)
+                return this.liczba.CompareTo(colorObj.liczba);
             else
             throw new NotImplementedException();
         }

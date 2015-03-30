@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 namespace ConsoleApplication5
 {
-    class Tancerz
+    class Tancerz : IComparable
     {
         public static int iloscTancerzy;
         int poziomUmiejetnosci;
@@ -115,6 +116,17 @@ namespace ConsoleApplication5
                 Console.WriteLine(imie+" uzywa specjalnego ruchu X"+i+" razy");
             }
             
+        }
+
+        public int CompareTo(object obj)
+        {
+            if (obj == null) return 1;
+
+            Tancerz tancerz = obj as Tancerz;
+            if (tancerz != null)
+                return this.poziomUmiejetnosci.CompareTo(tancerz.poziomUmiejetnosci);
+            else
+                throw new ArgumentException("Objekt to nie tancerz");
         }
     }
 }
