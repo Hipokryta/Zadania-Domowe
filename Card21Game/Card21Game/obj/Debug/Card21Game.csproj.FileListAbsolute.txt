@@ -1,0 +1,6 @@
+c:\users\michal\documents\visual studio 2013\Projects\Card21Game\Card21Game\bin\Debug\Card21Game.exe.config
+c:\users\michal\documents\visual studio 2013\Projects\Card21Game\Card21Game\bin\Debug\Card21Game.exe
+c:\users\michal\documents\visual studio 2013\Projects\Card21Game\Card21Game\bin\Debug\Card21Game.pdb
+c:\users\michal\documents\visual studio 2013\Projects\Card21Game\Card21Game\obj\Debug\Card21Game.exe
+c:\users\michal\documents\visual studio 2013\Projects\Card21Game\Card21Game\obj\Debug\Card21Game.pdb
+c:\users\michal\documents\visual studio 2013\Projects\Card21Game\Card21Game\obj\Debug\Card21Game.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+c:\users\michal\documents\visual studio 2013\Projects\wojnaCardGame\wojnaCardGame\bin\Debug\wojnaCardGame.exe.config
+c:\users\michal\documents\visual studio 2013\Projects\wojnaCardGame\wojnaCardGame\bin\Debug\wojnaCardGame.exe
+c:\users\michal\documents\visual studio 2013\Projects\wojnaCardGame\wojnaCardGame\bin\Debug\wojnaCardGame.pdb
+c:\users\michal\documents\visual studio 2013\Projects\wojnaCardGame\wojnaCardGame\obj\Debug\wojnaCardGame.csprojResolveAssemblyReference.cache
+c:\users\michal\documents\visual studio 2013\Projects\wojnaCardGame\wojnaCardGame\obj\Debug\wojnaCardGame.exe
+c:\users\michal\documents\visual studio 2013\Projects\wojnaCardGame\wojnaCardGame\obj\Debug\wojnaCardGame.pdb
