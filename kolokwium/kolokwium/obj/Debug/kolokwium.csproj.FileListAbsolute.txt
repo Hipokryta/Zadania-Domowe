@@ -1,0 +1,12 @@
+c:\users\michal\documents\visual studio 2013\Projects\kolokwium\kolokwium\bin\Debug\kolokwium.exe.config
+c:\users\michal\documents\visual studio 2013\Projects\kolokwium\kolokwium\bin\Debug\kolokwium.exe
+c:\users\michal\documents\visual studio 2013\Projects\kolokwium\kolokwium\bin\Debug\kolokwium.pdb
+c:\users\michal\documents\visual studio 2013\Projects\kolokwium\kolokwium\obj\Debug\kolokwium.csprojResolveAssemblyReference.cache
+c:\users\michal\documents\visual studio 2013\Projects\kolokwium\kolokwium\obj\Debug\kolokwium.exe
+c:\users\michal\documents\visual studio 2013\Projects\kolokwium\kolokwium\obj\Debug\kolokwium.pdb
+C:\Users\michal\githubFolder\kolokwium\kolokwium\bin\Debug\kolokwium.exe.config
+C:\Users\michal\githubFolder\kolokwium\kolokwium\obj\Debug\kolokwium.exe
+C:\Users\michal\githubFolder\kolokwium\kolokwium\obj\Debug\kolokwium.pdb
+C:\Users\michal\githubFolder\kolokwium\kolokwium\bin\Debug\kolokwium.exe
+C:\Users\michal\githubFolder\kolokwium\kolokwium\bin\Debug\kolokwium.pdb
+C:\Users\michal\githubFolder\kolokwium\kolokwium\obj\Debug\kolokwium.csprojResolveAssemblyReference.cache
