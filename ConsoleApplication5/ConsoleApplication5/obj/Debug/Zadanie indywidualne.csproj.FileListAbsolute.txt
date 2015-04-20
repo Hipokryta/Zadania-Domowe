@@ -1,4 +1,0 @@
-C:\Users\michal\githubFolder\ConsoleApplication5\ConsoleApplication5\bin\Debug\ConsoleApplication5.exe.config
-C:\Users\michal\githubFolder\ConsoleApplication5\ConsoleApplication5\obj\Debug\Zadanie indywidualne.csproj.ResolveComReference.cache
-C:\Users\michal\githubFolder\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.exe
-C:\Users\michal\githubFolder\ConsoleApplication5\ConsoleApplication5\obj\Debug\ConsoleApplication5.pdb

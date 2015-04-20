@@ -1,0 +1,6 @@
+c:\users\michal\documents\visual studio 2013\Projects\ConsoleApplication7\ConsoleApplication7\bin\Debug\pliki.exe.config
+c:\users\michal\documents\visual studio 2013\Projects\ConsoleApplication7\ConsoleApplication7\bin\Debug\pliki.exe
+c:\users\michal\documents\visual studio 2013\Projects\ConsoleApplication7\ConsoleApplication7\bin\Debug\pliki.pdb
+c:\users\michal\documents\visual studio 2013\Projects\ConsoleApplication7\ConsoleApplication7\obj\Debug\ConsoleApplication7.csprojResolveAssemblyReference.cache
+c:\users\michal\documents\visual studio 2013\Projects\ConsoleApplication7\ConsoleApplication7\obj\Debug\pliki.exe
+c:\users\michal\documents\visual studio 2013\Projects\ConsoleApplication7\ConsoleApplication7\obj\Debug\pliki.pdb

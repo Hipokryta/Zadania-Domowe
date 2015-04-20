@@ -8,3 +8,6 @@ C:\Users\michal\Documents\Visual Studio 2013\Projects\ConsoleApplication3\Consol
 C:\Users\michal\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\michal\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\EntityFramework.xml
 C:\Users\michal\Documents\Visual Studio 2013\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\michal\githubFolder\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Users\michal\githubFolder\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.exe
+C:\Users\michal\githubFolder\ConsoleApplication3\ConsoleApplication3\obj\Debug\ConsoleApplication3.pdb

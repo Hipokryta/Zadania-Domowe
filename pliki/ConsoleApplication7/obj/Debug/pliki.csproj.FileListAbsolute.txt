@@ -1,0 +1,6 @@
+C:\Users\michal\Documents\Visual Studio 2013\Projects\pliki\ConsoleApplication7\bin\Debug\pliki.exe.config
+C:\Users\michal\Documents\Visual Studio 2013\Projects\pliki\ConsoleApplication7\obj\Debug\pliki.exe
+C:\Users\michal\Documents\Visual Studio 2013\Projects\pliki\ConsoleApplication7\obj\Debug\pliki.pdb
+C:\Users\michal\Documents\Visual Studio 2013\Projects\pliki\ConsoleApplication7\bin\Debug\pliki.exe
+C:\Users\michal\Documents\Visual Studio 2013\Projects\pliki\ConsoleApplication7\bin\Debug\pliki.pdb
+C:\Users\michal\Documents\Visual Studio 2013\Projects\pliki\ConsoleApplication7\obj\Debug\pliki.csprojResolveAssemblyReference.cache

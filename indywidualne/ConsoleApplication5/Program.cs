@@ -3,13 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.IO;
 namespace ConsoleApplication5
 {
     class Program
     {
         static void Main(string[] args)
         {
+            var reader = new StreamReader(File.OpenRead(@"~/../../../tancerze.txt"));
+            List<string> values = new List<string>();
+            
+
             Tancerz kate = new Tancerz("Kate", "HIP-HOP", 5, "Blue");
             Tancerz kateSister = kate;
             Tancerz john = new Tancerz("John", "BreakDance", 5, "RED");
