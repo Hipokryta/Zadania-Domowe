@@ -4,26 +4,32 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 namespace ConsoleApplication5
 {
-    class Tancerz : IComparable
+    [XmlRoot("TancerzeWKlubie")]
+    public class Tancerz : IComparable
     {
-        public static int iloscTancerzy;
-        int poziomUmiejetnosci;
-        String stylTanca, imie;
-        String kolor;
-        
-        static Tancerz()
-        {
-            iloscTancerzy = 0;
-        }
+        [XmlArray("tancerze"), XmlArrayItem("tancerz")]
+        public Tancerz[] tancerze { get; set; }
+        //public static int iloscTancerzy { get; set; }
+        public int poziomUmiejetnosci { get; set; }
+        public String stylTanca { get; set; }
+        public String imie { get; set; }
+        public String kolor{ get; set; }
+
+        //static Tancerz()
+        //{
+        //    iloscTancerzy = 0;
+        //}
+        public Tancerz() { }
         public Tancerz(String imie,String stylTanca, int poziomUmiejetnosci, String kolor)
         {
             this.poziomUmiejetnosci = poziomUmiejetnosci;
             this.imie = imie;
             this.stylTanca = stylTanca;
             this.kolor = kolor;
-            iloscTancerzy++;
+           // iloscTancerzy++;
         }
         public override bool Equals(System.Object obj)
         {
