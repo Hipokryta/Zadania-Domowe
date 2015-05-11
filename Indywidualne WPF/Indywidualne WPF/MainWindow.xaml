@@ -1,0 +1,20 @@
+﻿<Window x:Class="Indywidualne_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Content="Imie" HorizontalAlignment="Left" Margin="47,50,0,0" VerticalAlignment="Top"/>
+        <Label Content="Styl Tanca" HorizontalAlignment="Left" Margin="47,103,0,0" VerticalAlignment="Top"/>
+        <Label Content="Poziom" HorizontalAlignment="Left" Margin="47,156,0,0" VerticalAlignment="Top"/>
+        <Label Content="Kolor" HorizontalAlignment="Left" Margin="47,211,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Height="23" Margin="133,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="style" HorizontalAlignment="Left" Height="23" Margin="133,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="levelTxT" HorizontalAlignment="Left" Height="23" Margin="133,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="NumberValidationTextBox"/>
+        <ComboBox x:Name="color" HorizontalAlignment="Left" Margin="133,215,0,0" VerticalAlignment="Top" Width="120" SelectedIndex="0">
+            <ComboBoxItem Content="RED" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="BLUE" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="133,275,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,13 @@
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\bin\Debug\Indywidualne WPF.exe.config
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\bin\Debug\Indywidualne WPF.exe
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\bin\Debug\Indywidualne WPF.pdb
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\obj\Debug\Indywidualne WPF.csprojResolveAssemblyReference.cache
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\obj\Debug\MainWindow.baml
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\obj\Debug\MainWindow.g.cs
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\obj\Debug\App.g.cs
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\obj\Debug\Indywidualne WPF_MarkupCompile.cache
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\obj\Debug\Indywidualne WPF.g.resources
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\obj\Debug\Indywidualne_WPF.Properties.Resources.resources
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\obj\Debug\Indywidualne WPF.csproj.GenerateResource.Cache
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\obj\Debug\Indywidualne WPF.exe
+c:\users\michal\documents\visual studio 2013\Projects\Indywidualne WPF\Indywidualne WPF\obj\Debug\Indywidualne WPF.pdb
